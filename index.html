@@ -34,13 +34,21 @@
             <input type="radio" id="status" name="status" value="Non-aktif">Non-aktif
         </label>
 
-        <button type="button" onclick="submitForm()">Kirim</button>
+        <button class="kirim" type="button" onclick="submitForm()">Tambah Data</button>
+
+        <button class="button" type="button" onclick="saveEditedStudent()">Simpan Perubahan</button>
+        <button class="button" type="button" onclick="cancelEdit()">Batal</button>
+        <input type="hidden" id="editIndex" name="editIndex" value="">
     </form>
 
     <h2>Data Mahasiswa</h2>
     <table id="studentTable">
         <!-- Table content will be dynamically generated using JavaScript -->
-    </table>
+    </table><br>
+
+    <footer>
+        <p>&copy; 2023 Alvian Manshurin. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

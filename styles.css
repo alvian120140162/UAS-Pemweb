@@ -5,9 +5,20 @@ body {
     background-color: #f4f4f4;
 }
 
-h1, h2 {
-    color: #333;
+h1 {
     text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: left;
 }
 
 /* Form Styles */
@@ -38,17 +49,26 @@ input#status {
 }
 
 button {
-    width: 100%;
+    width: 49%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-button {
     background-color: #17891a;
     color: #fff;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #09480b;
+}
+
+.button {
+    width: 49.4%;
+}
+
+.kirim {
+    width: 100%;
 }
 
 /* Table Styles */
@@ -75,6 +95,15 @@ td.row-number {
     color: #333;
 }
 
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
