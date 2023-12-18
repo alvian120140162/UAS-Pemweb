@@ -79,4 +79,5 @@ Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host
 Selalu validasi input yang diterima dari pengguna untuk mencegah serangan injeksi seperti SQL injection, XSS, dan CSRF.<br>
 Pastikan pengelolaan sesi yang aman dan periksa otentikasi pengguna.
 
-- (5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+- (5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.<br>
+Dengan mengkonfigurasi php dan juga melakukan konfigurasi database mysql
