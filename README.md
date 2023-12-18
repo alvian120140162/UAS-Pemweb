@@ -77,7 +77,8 @@ Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host
 - (5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda. => Menggunakan infinityfree, karena gratis cukup mudah dalam penggunaannya
 - (5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?<br>
 Selalu validasi input yang diterima dari pengguna untuk mencegah serangan injeksi seperti SQL injection, XSS, dan CSRF.<br>
-Pastikan pengelolaan sesi yang aman dan periksa otentikasi pengguna.
+Pastikan pengelolaan sesi yang aman dan periksa otentikasi pengguna.<br>
+Menggunakan sertifikasi SSL
 
 - (5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.<br>
 Dengan mengkonfigurasi php dan juga melakukan konfigurasi database mysql
