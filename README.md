@@ -9,6 +9,7 @@ Kelas : RC
 Panduan:
 - Buat form input dengan minimal 4 elemen input (teks, checkbox, radio, dll.)
 - Menampilkan data dari server kedalam sebuah halaman menggunakan tag `table`<br>
+
 1.2 (15%) Buatlah beberapa event untuk menghandle interaksi pada halaman web
 
 Panduan:
@@ -22,6 +23,7 @@ Panduan:
 - Gunakan metode POST atau GET pada formulir.
 - Parsing data dari variabel global dan lakukan validasi disisi server
 - Simpan ke basisdata termasuk jenis browser dan alamat IP pengguna<br>
+
 2.2 (10%) Buatlah sebuah objek PHP berbasis OOP yang memiliki minimal dua metode dan gunakan objek tersebut dalam skenario tertentu pada halaman web Anda.
 
 Panduan:
