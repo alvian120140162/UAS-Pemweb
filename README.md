@@ -8,7 +8,7 @@ Kelas : RC
 
 Panduan:
 - Buat form input dengan minimal 4 elemen input (teks, checkbox, radio, dll.)
-- Menampilkan data dari server kedalam sebuah halaman menggunakan tag `table`
+- Menampilkan data dari server kedalam sebuah halaman menggunakan tag `table`<br>
 1.2 (15%) Buatlah beberapa event untuk menghandle interaksi pada halaman web
 
 Panduan:
@@ -21,7 +21,7 @@ Panduan:
 Panduan:
 - Gunakan metode POST atau GET pada formulir.
 - Parsing data dari variabel global dan lakukan validasi disisi server
-- Simpan ke basisdata termasuk jenis browser dan alamat IP pengguna
+- Simpan ke basisdata termasuk jenis browser dan alamat IP pengguna<br>
 2.2 (10%) Buatlah sebuah objek PHP berbasis OOP yang memiliki minimal dua metode dan gunakan objek tersebut dalam skenario tertentu pada halaman web Anda.
 
 Panduan:
@@ -31,12 +31,12 @@ Panduan:
 3.1 (5%) Buatlah sebuah tabel pada database MySQL
 
 Panduan:
-- Lampirkan langkah-langkah dalam membuat basisdata dengan syntax basisdata
+- Lampirkan langkah-langkah dalam membuat basisdata dengan syntax basisdata<br>
 
 3.2 (5%) Buatlah konfigurasi koneksi ke database MySQL pada file PHP. Pastikan koneksi berhasil dan dapat diakses.
 
 Panduan:
-- Gunakan konstanta atau variabel untuk menyimpan informasi koneksi (host, username, password, nama database).
+- Gunakan konstanta atau variabel untuk menyimpan informasi koneksi (host, username, password, nama database).<br>
 
 3.3 (10%) Lakukan manipulasi data pada tabel database dengan menggunakan query SQL. Misalnya, tambah data, ambil data, atau update data.
 
@@ -48,7 +48,7 @@ Panduan:
 
 Panduan:
 - Gunakan `session_start()` untuk memulai session.
-- Simpan informasi pengguna ke dalam session.
+- Simpan informasi pengguna ke dalam session.<br>
 
 4.2 (10%) Implementasikan pengelolaan state menggunakan cookie dan browser storage pada sisi client menggunakan JavaScript.
 
@@ -59,7 +59,7 @@ Panduan:
 <h2>Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)</h2>
 Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host aplikasi web yang Anda buat. Jawablah pertanyaan-pertanyaan berikut:
 
-(5%) Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
-(5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
-(5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
-(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+- (5%) Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
+- (5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
+- (5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
+- (5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
