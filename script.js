@@ -38,7 +38,6 @@ function submitForm() {
     document.getElementById('studentForm').reset();
 }
 
-// Modifikasi displayData untuk menambahkan tombol aksi
 function displayData(data) {
     const table = document.getElementById('studentTable');
 

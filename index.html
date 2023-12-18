@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pendataan Mahasiswa</title>
+    <link
+      rel="shortcut icon"
+      href="assets\img\favicon.png"
+      type="image/x-icon" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Form Pendataan Mahasiswa</h1>
-    <form id="studentForm">
+    <form id="studentForm" action="process.php" method="POST">
 
         <label for="name">Nama :</label>
         <input type="text" id="name" name="name" required><br>
@@ -34,16 +38,15 @@
             <input type="radio" id="status" name="status" value="Non-aktif">Non-aktif
         </label>
 
-        <button class="kirim" type="button" onclick="submitForm()">Tambah Data</button>
+        <button class="button" type="button" onclick="submitForm()">Tambah Data</button>
 
         <button class="button" type="button" onclick="saveEditedStudent()">Simpan Perubahan</button>
-        <button class="button" type="button" onclick="cancelEdit()">Batal</button>
         <input type="hidden" id="editIndex" name="editIndex" value="">
     </form>
 
     <h2>Data Mahasiswa</h2>
     <table id="studentTable">
-        <!-- Table content will be dynamically generated using JavaScript -->
+        <!-- Tabel akan muncul disini menggunakan JavaScript -->
     </table><br>
 
     <footer>
