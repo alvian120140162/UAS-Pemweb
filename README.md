@@ -7,8 +7,8 @@ Kelas : RC
 1.1 (15%) Buatlah sebuah halaman web sederhana yang memanfaatkan JavaScript untuk melakukan manipulasi DOM.
 
 Panduan:
-- Buat form input dengan minimal 4 elemen input (teks, checkbox, radio, dll.)
-- Menampilkan data dari server kedalam sebuah halaman menggunakan tag `table`<br>
+- Buat form input dengan minimal 4 elemen input (teks, checkbox, radio, dll.) 4 element input yang berada pada web ini bertype text, number, select, dan juga checkbox
+- Menampilkan data dari server kedalam sebuah halaman menggunakan tag `table` sudah di lakukan pada index.html line 44-47<br>
 
 1.2 (15%) Buatlah beberapa event untuk menghandle interaksi pada halaman web
 
@@ -62,6 +62,18 @@ Panduan:
 Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host aplikasi web yang Anda buat. Jawablah pertanyaan-pertanyaan berikut:
 
 - (5%) Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
-- (5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
+-- Buat Akun di InfinityFree
+--  Daftar Domain atau Gunakan Subdomain InfinityFree
+--  Login Ke Control Panel
+--  Upload dan Tambahkan file website ke control panel
+--  Kembali ke infinityFree lalu buat database pada menu MySQLDatabase
+--  Tekan Create Database dan masukkan nama database lalu lanjutkan dengan menekan tombol Create Database lagi
+--  Masuk ke PHPMyAdmin
+--  Import atau buat database sesuai kebutuhan website
+--  Setelah setup database berhasil, selanjutnya adalah merubah variabel koneksi dari file koneksi.php melalui control panel dan diubah mengikuti host, username, password, dan nama database yang diberikan infinityfree
+--  Setelah berhasil merubah host,username,password dan database seharusnya website sudah terhubung dengan database yang kita buat sebelumnya
+--  Selanjutnya adalah uji coba situs web
+
+- (5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda. => Menggunakan infinityfree, karena gratis cukup mudah dalam penggunaannya
 - (5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
 - (5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
